@@ -9,10 +9,16 @@ This is a suitable usecase for a service worker considering the following:
 - The service worker runs in a seperate thread so it doesn't impact the main thread's performance
 - The service worker can outlive the main thread, thus it can clean up and send any buffered logs after a tab / window has been closed
 
+Files of concern are:
+
+- plugins/serviceworker.client.ts -> Register the service worker
+- app.vue -> Code for sending/receiving messages to/from the service worker
+- public/serviceworker.js -> Service worker code
+- server/api/click.ts -> Backend code for receiving event logs from the service worker
+
 # Showcase
 
 ![Kapture 2024-08-02 at 11 58 07](https://github.com/user-attachments/assets/227de909-f3fd-47a9-ba1e-41b160801d05)
-
 
 # How to use
 
