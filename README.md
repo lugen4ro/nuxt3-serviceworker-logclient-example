@@ -11,6 +11,9 @@ This is a suitable usecase for a service worker considering the following:
 
 # Showcase
 
+![Kapture 2024-08-02 at 11 58 07](https://github.com/user-attachments/assets/227de909-f3fd-47a9-ba1e-41b160801d05)
+
+
 # How to use
 
 Execute the following in this repository's directory.
